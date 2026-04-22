@@ -33,12 +33,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/quitequinn/sanity-font-data-extractor.git"
+    "url": "https://github.com/Liiift-Studio/sanity-font-data-extractor.git"
   },
   "bugs": {
-    "url": "https://github.com/quitequinn/sanity-font-data-extractor/issues"
+    "url": "https://github.com/Liiift-Studio/sanity-font-data-extractor/issues"
   },
-  "homepage": "https://github.com/quitequinn/sanity-font-data-extractor#readme",
+  "homepage": "https://github.com/Liiift-Studio/sanity-font-data-extractor#readme",
   "peerDependencies": {
     "react": "^18.0.0",
     "sanity": "^3.0.0"

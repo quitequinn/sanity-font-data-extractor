@@ -612,11 +612,11 @@ const FontDataExtractor: React.FC<FontDataExtractorProps> = ({
                         </Flex>
                         
                         <Flex gap={2} wrap="wrap">
-                          {font.fontSize && <Code>size: {font.fontSize}</Code>}
-                          {font.fontWeight && <Code>weight: {font.fontWeight}</Code>}
-                          {font.fontStyle && <Code>style: {font.fontStyle}</Code>}
-                          {font.lineHeight && <Code>line-height: {font.lineHeight}</Code>}
-                          {font.color && <Code>color: {font.color}</Code>}
+                          {font.fontSize && <Code size={1}>size: {font.fontSize}</Code>}
+                          {font.fontWeight && <Code size={1}>weight: {font.fontWeight}</Code>}
+                          {font.fontStyle && <Code size={1}>style: {font.fontStyle}</Code>}
+                          {font.lineHeight && <Code size={1}>line-height: {font.lineHeight}</Code>}
+                          {font.color && <Code size={1}>color: {font.color}</Code>}
                         </Flex>
                         
                         <Text size={1} muted>

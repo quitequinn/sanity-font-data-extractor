@@ -1,10 +1,6 @@
 // Component for analyzing and displaying technical details of font files
-import { Stack, Card, Grid, Heading, Text, Button, Badge, Flex, Box } from '@liiift-studio/sanity-ui-compat'
+import { Stack, Card, Grid, Heading, Text, Button, Badge, Flex, Box, usePrefersDark } from '@liiift-studio/sanity-ui-compat'
 import { TrashIcon, UploadIcon, CopyIcon, CheckmarkIcon, CloseIcon } from '@liiift-studio/sanity-ui-compat/icons'
-// NOTE: usePrefersDark is not part of the compat surface yet, so it still comes straight from
-// @sanity/ui. It is a live runtime export on v2/v3/v4, but this line is the one thing in this
-// file that is not proven safe on a future major. Move it to the compat before claiming v6 support.
-import { usePrefersDark } from '@sanity/ui'
 import { useState } from 'react'
 import { ObjectInspector } from "@devtools-ds/object-inspector"
 import * as fontkit from 'fontkit'

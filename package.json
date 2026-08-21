@@ -1,6 +1,6 @@
 {
 	"name": "@liiift-studio/sanity-font-data-extractor",
-	"version": "2.0.1",
+	"version": "2.1.0",
 	"description": "Font analysis utility for Sanity Studio — inspect OpenType metadata, variable font axes, and compare multiple fonts side by side",
 	"main": "dist/index.js",
 	"module": "dist/index.js",
@@ -54,7 +54,7 @@
 	},
 	"dependencies": {
 		"@devtools-ds/object-inspector": "^1.2.1",
-		"@liiift-studio/sanity-ui-compat": "^0.1.1"
+		"@liiift-studio/sanity-ui-compat": "^0.1.2"
 	},
 	"devDependencies": {
 		"@sanity/icons": "^5.2.1",

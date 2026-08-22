@@ -1,67 +1,67 @@
 {
-	"name": "@liiift-studio/sanity-font-data-extractor",
-	"version": "2.1.0",
-	"description": "Font analysis utility for Sanity Studio — inspect OpenType metadata, variable font axes, and compare multiple fonts side by side",
-	"main": "dist/index.js",
-	"module": "dist/index.js",
-	"exports": {
-		".": "./dist/index.js"
-	},
-	"files": [
-		"dist",
-		"src"
-	],
-	"scripts": {
-		"build": "esbuild src/index.jsx --bundle=true --format=esm --jsx=automatic --external:react --external:react-dom --external:sanity --external:@sanity/* --external:@liiift-studio/* --external:@devtools-ds/* --external:fontkit --outfile=dist/index.js",
-		"capture": "node scripts/capture.mjs",
-		"prepublishOnly": "npm run build"
-	},
-	"keywords": [
-		"sanity",
-		"sanity-studio",
-		"sanity-plugin",
-		"font",
-		"typography",
-		"opentype",
-		"variable-fonts",
-		"font-analysis",
-		"content-management",
-		"cms",
-		"utility",
-		"developer-tools"
-	],
-	"author": "Quinn Keaveney <hello@liiift.studio>",
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Liiift-Studio/sanity-font-data-extractor.git"
-	},
-	"bugs": {
-		"url": "https://github.com/Liiift-Studio/sanity-font-data-extractor/issues"
-	},
-	"homepage": "https://github.com/Liiift-Studio/sanity-font-data-extractor#readme",
-	"peerDependencies": {
-		"@sanity/icons": ">=2 <6",
-		"@sanity/ui": ">=2 <5",
-		"fontkit": "^2.0.0",
-		"react": "^18.0.0 || ^19.0.0",
-		"sanity": ">=3 <7"
-	},
-	"peerDependenciesMeta": {
-		"fontkit": {
-			"optional": true
-		}
-	},
-	"dependencies": {
-		"@devtools-ds/object-inspector": "^1.2.1",
-		"@liiift-studio/sanity-ui-compat": "^0.1.2"
-	},
-	"devDependencies": {
-		"@sanity/icons": "^5.2.1",
-		"@sanity/ui": "^4.0.5",
-		"esbuild": "^0.25.0"
-	},
-	"publishConfig": {
-		"access": "public"
-	}
+  "name": "@liiift-studio/sanity-font-data-extractor",
+  "version": "2.1.1",
+  "description": "Font analysis utility for Sanity Studio — inspect OpenType metadata, variable font axes, and compare multiple fonts side by side",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "esbuild src/index.jsx --bundle=true --format=esm --jsx=automatic --external:react --external:react-dom --external:sanity --external:@sanity/* --external:@liiift-studio/* --external:@devtools-ds/* --external:fontkit --outfile=dist/index.js",
+    "capture": "node scripts/capture.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "sanity",
+    "sanity-studio",
+    "sanity-plugin",
+    "font",
+    "typography",
+    "opentype",
+    "variable-fonts",
+    "font-analysis",
+    "content-management",
+    "cms",
+    "utility",
+    "developer-tools"
+  ],
+  "author": "Quinn Keaveney <hello@liiift.studio>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Liiift-Studio/sanity-font-data-extractor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Liiift-Studio/sanity-font-data-extractor/issues"
+  },
+  "homepage": "https://github.com/Liiift-Studio/sanity-font-data-extractor#readme",
+  "peerDependencies": {
+    "@sanity/icons": ">=2 <6",
+    "@sanity/ui": ">=2 <5",
+    "fontkit": "^2.0.0",
+    "react": "^18.0.0 || ^19.0.0",
+    "sanity": ">=3 <7"
+  },
+  "peerDependenciesMeta": {
+    "fontkit": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@devtools-ds/object-inspector": "^1.2.1",
+    "@liiift-studio/sanity-ui-compat": "^0.1.2"
+  },
+  "devDependencies": {
+    "@sanity/icons": "^5.2.1",
+    "@sanity/ui": "^4.0.5",
+    "esbuild": "^0.25.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
